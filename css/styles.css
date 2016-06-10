@@ -401,6 +401,7 @@ a:focus , a:hover{
 padding-right: 0px;
 }
 
+/* about page people code */
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 body { padding-top: 60px; }
 .nav.nav-justified > li > a { position: relative; }
