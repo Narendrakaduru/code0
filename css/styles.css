@@ -374,7 +374,19 @@ a:focus , a:hover{
   box-shadow: 1px 1px 1px 1px #bababa;
 }
 
-
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #7a23de;
+  border-color: #6510c7;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #7a23de;
+  border-color: #6510c7;  
+} 
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
+}  
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 body { padding-top: 60px; }
 .nav.nav-justified > li > a { position: relative; }
