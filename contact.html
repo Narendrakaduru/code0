@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <script src="dist/sweetalert.min.js"></script>
   <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -74,7 +75,6 @@
     google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
-
 </head>
 <body>
 <div class="container">
@@ -136,6 +136,65 @@
                                   <p style="height:40px; background-color:#F6F7F8; color:#000; margin-bottom: -5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; text-align: center; line-height: 40px;">New Here<b><a href="#" style="color: blue">&nbspJoin Us</a></b></p>
                               </li>
                         </ul>
+                        <li>
+                        
+                          <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbspSignup</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Please sign up for Codebees <small>It's free!</small></h4>
+        </div>
+        <div class="modal-body">
+            <form role="form">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                      <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                      <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                </div>
+                
+                <input type="submit" value="Register" class="btn btn-info btn-block" style="margin-bottom:10px; margin-right:0px;">
+              
+              </form>
+        </div>
+        <div class="modal-footer" style="margin-top:25px;">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+                        </li>
                     </li>
 
                    </ul>
@@ -145,6 +204,8 @@
         <!-- /.container -->
     </nav>
    </div>
+
+
            
 
            <div class="row" style="margin:0px; margin-top:70px;">
