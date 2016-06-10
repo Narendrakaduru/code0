@@ -329,15 +329,11 @@ a:focus , a:hover{
     border-bottom: 2px solid rgb(204, 204, 204);
 }
 .btn-primary.focus, .btn-primary:focus{
-  	background-color: #B87EF8;
-  	border-color: #A868F0;
-  	color: #fff;
+    background-color: #9B46FC;
+    border-color: #A868F0; 
+    border-bottom: 2px solid rgb(204, 204, 204);
 }
-.btn-primary.click, .btn-primary:focus{
-  	background-color: #B87EF8;
-  	border-color: #A868F0;
-  	color: #fff;
-}
+
 .btn-primary:hover{
 	  background-color: #8C46DB;
     border-color: #8B2FF2;
